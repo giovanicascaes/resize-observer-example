@@ -18,6 +18,8 @@
 .MD > .panel .item-container {
   flex-direction: row;
   align-items: flex-start;
+  border-bottom-width: 1px;
+
 }
 
 .MD > .panel .item-container > .photo-container {

@@ -7,10 +7,10 @@ export default function ListItem({
   dimensions: { width, height },
 }) {
   return (
-    <div className="flex bg-white p-6 border-b item-container flex-1">
+    <div className="flex bg-white p-6 item-container flex-1">
       <div className="w-24 border shadow photo-container">
         <img
-          className="h-24 w-full border-4 border-white mx-0"
+          className="h-24 w-full border-4 border-white"
           src={imgSrc}
           alt="thumb"
         />
