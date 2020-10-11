@@ -74,7 +74,7 @@ export default function Main() {
   const panel = (
     <ResponsiveContainer
       className="overflow-y-auto"
-      breakpoints={{ SM: 0, MD: 384 }}
+      breakpoints={{ SM: 0, MD: 430 }}
     >
       <div className="panel">
         {images.map((img, i) => (
