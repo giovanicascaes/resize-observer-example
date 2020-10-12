@@ -6,3 +6,16 @@
 .MD > .panel {
   display: block;
 }
+
+.gutter:hover .gutter-center,
+.gutter:hover .gutter-drag-center {
+  --bg-opacity: 1;
+  background-color: #cbd5e0;
+  background-color: rgba(203, 213, 224, var(--bg-opacity));
+}
+
+.gutter:hover .gutter-drag {
+  --border-opacity: 1;
+  border-color: #cbd5e0;
+  border-color: rgba(203, 213, 224, var(--border-opacity));
+}

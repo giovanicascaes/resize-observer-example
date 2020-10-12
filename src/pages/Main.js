@@ -24,7 +24,7 @@ const gutterFn = (_index, direction, _pairElement) => {
             justify-center
           `;
   const gutterCenter = document.createElement("div");
-  gutterCenter.className = "h-full bg-gray-300";
+  gutterCenter.className = "gutter-center h-full bg-gray-300";
   gutterCenter.style = "width: 1px;";
   gutterRule.appendChild(gutterCenter);
   const gutterDragContainer = document.createElement("div");
@@ -39,6 +39,7 @@ const gutterFn = (_index, direction, _pairElement) => {
           `;
   const gutterDrag = document.createElement("div");
   gutterDrag.className = `
+            gutter-drag
             w-full
             h-8
             border-l-2
@@ -49,7 +50,7 @@ const gutterFn = (_index, direction, _pairElement) => {
             bg-white
           `;
   const gutterDragCenter = document.createElement("div");
-  gutterDragCenter.className = "w-1/4 h-full bg-gray-300";
+  gutterDragCenter.className = "gutter-drag-center w-1/4 h-full bg-gray-300";
   gutterDrag.appendChild(gutterDragCenter);
   gutterDragContainer.appendChild(gutterDrag);
   gutterRule.appendChild(gutterDragContainer);
