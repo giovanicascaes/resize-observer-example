@@ -5,10 +5,6 @@ module.exports = {
   },
   purge: [],
   theme: {
-    extend: {
-      cursor: {
-        "col-resize": "col-resize",
-      },
-    },
+    extend: {},
   },
 };
