@@ -62,17 +62,16 @@ export default function ListItem({
           transition
           duration-200
           ease-in-out
+          cursor-pointer
           hover:bg-opacity-75
           ${
             selected
               ? `bg-opacity-75
                 text-opacity-100
-                cursor-pointer
                 text-shadow-xl
                 bg-purple-600
                 hover:bg-purple-700`
               : `hover:text-opacity-100
-              hover:cursor-pointer
               hover:text-shadow-2xl
               bg-purple-500`
           }
