@@ -2,4 +2,4 @@ A small React project showing an implementation of responsive components using R
 
 ### How to run
 
-Navigate to directory and run `yarn && yarn start`
+Navigate to root directory and run `yarn && yarn start`
