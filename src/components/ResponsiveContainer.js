@@ -47,6 +47,11 @@ export default function ResponsiveContainer({ breakpoints, ...otherProps }) {
     const element = ref.current;
     // Começa a observar o container
     observer.observe(element);
+
+    return () => {
+      // Ao desmontar o comoponente remove o container da lista de elementos observados
+      observer.unobserve(element);
+    };
   }, []);
 
   let props = otherProps;
